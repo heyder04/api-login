@@ -24,6 +24,6 @@ public class UserPrincipalAuthenticationToken extends AbstractAuthenticationToke
 
     @Override
     public UserPrincipal getPrincipal() {
-        return null;
+        return principal;
     }
 }
